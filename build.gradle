@@ -31,23 +31,15 @@ ext {
 
 dependencies {
 
-    // ===== Serenity Core (incluye WebDriver) =====
     implementation "net.serenity-bdd:serenity-core:${serenityVersion}"
     implementation "net.serenity-bdd:serenity-junit:${serenityVersion}"
     implementation "net.serenity-bdd:serenity-ensure:${serenityVersion}"
     implementation "net.serenity-bdd:serenity-cucumber:${serenityVersion}"
-
-    // ===== Cucumber JVM =====
     testImplementation "io.cucumber:cucumber-java:7.15.0"
     testImplementation "io.cucumber:cucumber-junit:7.15.0"
-
-    // ===== JUnit4 (necesario para SerenityRunner + CucumberJUnit) =====
     testImplementation "junit:junit:4.13.2"
-
-    // ===== WebDriverManager (descarga automática de ChromeDriver) =====
     implementation "io.github.bonigarcia:webdrivermanager:6.3.3"
 
-    implementation 'net.datafaker:datafaker:2.5.3'
 }
 
 tasks.withType(Test).configureEach {
