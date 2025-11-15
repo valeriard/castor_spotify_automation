@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="1" failures="0" name="play a playlist" skipped="0" tests="1" time="1.53" timestamp="2025-11-14 11:13:02"><testcase name="I'm going to search for a playlist"><error message="Step [I'm logged in to Spotify] is defined with 1 parameters at 'com.spotify.automation.definitions.LoginStepDefinitions.loginComplete(java.lang.String)'.&#10;However, the gherkin step has 0 arguments.&#10;Step text: I'm logged in to Spotify" type="io.cucumber.core.exception.CucumberException">Step [I'm logged in to Spotify] is defined with 1 parameters at 'com.spotify.automation.definitions.LoginStepDefinitions.loginComplete(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: I'm logged in to Spotify</error><system-err>Step [I'm logged in to Spotify] is defined with 1 parameters at 'com.spotify.automation.definitions.LoginStepDefinitions.loginComplete(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: I'm logged in to Spotify&#13;
+</system-err></testcase></testsuite>

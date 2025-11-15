@@ -13,4 +13,7 @@ public class HomePage  extends PageObject {
 
     @FindBy(css = "section[data-testid='search-tracks-result']")
     public WebElementFacade tracksResultSection;
+
+    @FindBy(xpath = "//button[@data-testid='login-button']")
+    public WebElementFacade buttonLogin;
 }

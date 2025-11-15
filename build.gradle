@@ -46,6 +46,8 @@ dependencies {
 
     // ===== WebDriverManager (descarga automática de ChromeDriver) =====
     implementation "io.github.bonigarcia:webdrivermanager:6.3.3"
+
+    implementation 'net.datafaker:datafaker:2.5.3'
 }
 
 tasks.withType(Test).configureEach {
