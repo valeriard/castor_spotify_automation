@@ -1,1 +1,353 @@
-{"name":"Play a song from a playlist","id":"play-a-song;play-a-song-from-a-playlist","scenarioId":"playSong:Play a song from a playlist","methodName":"Play a song from a playlist","testSteps":[{"number":1,"description":"Given I\u0027m logged in to Spotify","duration":10989,"startTime":"2025-11-15T17:45:53.511327800-05:00[America/Bogota]","screenshots":[{"screenshot":"4e4e97033cccf0f8c2b1a83fe31033958d9c17115bec27f996c58bcd42935bf7.png","timeStamp":1763246764501,"screenshotName":"4e4e97033cccf0f8c2b1a83fe31033958d9c17115bec27f996c58bcd42935bf7.png"}],"result":"SUCCESS","precondition":false,"level":0,"children":[{"number":2,"description":"Login User succesful","duration":10431,"startTime":"2025-11-15T17:45:54.064600300-05:00[America/Bogota]","screenshots":[{"screenshot":"4e4e97033cccf0f8c2b1a83fe31033958d9c17115bec27f996c58bcd42935bf7.png","timeStamp":1763246764495,"screenshotName":"4e4e97033cccf0f8c2b1a83fe31033958d9c17115bec27f996c58bcd42935bf7.png"}],"result":"SUCCESS","precondition":false,"level":1,"children":[{"number":3,"description":"open Spotify Page","duration":5909,"startTime":"2025-11-15T17:45:54.074757200-05:00[America/Bogota]","screenshots":[{"screenshot":"d0e3ce42c19b14d920293f5dfc3f62159bd9b517549d2c4c5769644eb9955eab.png","timeStamp":1763246759982,"screenshotName":"d0e3ce42c19b14d920293f5dfc3f62159bd9b517549d2c4c5769644eb9955eab.png"}],"result":"SUCCESS","precondition":false,"level":2},{"number":4,"description":"Go to login page","duration":564,"startTime":"2025-11-15T17:45:59.984798300-05:00[America/Bogota]","screenshots":[{"screenshot":"d0e3ce42c19b14d920293f5dfc3f62159bd9b517549d2c4c5769644eb9955eab.png","timeStamp":1763246759988,"screenshotName":"d0e3ce42c19b14d920293f5dfc3f62159bd9b517549d2c4c5769644eb9955eab.png"},{"screenshot":"dcbbea6a8ac5ad9f3422bd13f3f443d98d73f3b71f3a4e17d062356d718018cd.png","timeStamp":1763246760548,"screenshotName":"dcbbea6a8ac5ad9f3422bd13f3f443d98d73f3b71f3a4e17d062356d718018cd.png"}],"result":"SUCCESS","precondition":false,"level":2},{"number":5,"description":"Login in with valid email","duration":1612,"startTime":"2025-11-15T17:46:00.549887600-05:00[America/Bogota]","screenshots":[{"screenshot":"dcbbea6a8ac5ad9f3422bd13f3f443d98d73f3b71f3a4e17d062356d718018cd.png","timeStamp":1763246760555,"screenshotName":"dcbbea6a8ac5ad9f3422bd13f3f443d98d73f3b71f3a4e17d062356d718018cd.png"},{"screenshot":"6746d3c33d27a48dda6f58ea33bf31b41f0a93f7eaeb557b0439e3252a4bbc8a.png","timeStamp":1763246762162,"screenshotName":"6746d3c33d27a48dda6f58ea33bf31b41f0a93f7eaeb557b0439e3252a4bbc8a.png"}],"result":"SUCCESS","precondition":false,"level":2},{"number":6,"description":"ContinueWithLogin","duration":1833,"startTime":"2025-11-15T17:46:02.163646500-05:00[America/Bogota]","screenshots":[{"screenshot":"6746d3c33d27a48dda6f58ea33bf31b41f0a93f7eaeb557b0439e3252a4bbc8a.png","timeStamp":1763246762167,"screenshotName":"6746d3c33d27a48dda6f58ea33bf31b41f0a93f7eaeb557b0439e3252a4bbc8a.png"},{"screenshot":"3519e04924a077795f717fb32ef481a8c966427377814cccbb28a52a4af13cbc.png","timeStamp":1763246763997,"screenshotName":"3519e04924a077795f717fb32ef481a8c966427377814cccbb28a52a4af13cbc.png"}],"result":"SUCCESS","precondition":false,"level":2},{"number":7,"description":"Enter With Password","duration":494,"startTime":"2025-11-15T17:46:03.998949500-05:00[America/Bogota]","screenshots":[{"screenshot":"3519e04924a077795f717fb32ef481a8c966427377814cccbb28a52a4af13cbc.png","timeStamp":1763246764000,"screenshotName":"3519e04924a077795f717fb32ef481a8c966427377814cccbb28a52a4af13cbc.png"},{"screenshot":"4e4e97033cccf0f8c2b1a83fe31033958d9c17115bec27f996c58bcd42935bf7.png","timeStamp":1763246764493,"screenshotName":"4e4e97033cccf0f8c2b1a83fe31033958d9c17115bec27f996c58bcd42935bf7.png"}],"result":"SUCCESS","precondition":false,"level":2}]}]},{"number":8,"description":"Given I search for \"Coldplay\"","duration":4593,"startTime":"2025-11-15T17:46:04.503309-05:00[America/Bogota]","screenshots":[{"screenshot":"7e0c4f6efc72ba46c9684473058f0ca662ad16fae066aa52620594d7b90e6b6d.png","timeStamp":1763246769096,"screenshotName":"7e0c4f6efc72ba46c9684473058f0ca662ad16fae066aa52620594d7b90e6b6d.png"}],"result":"SUCCESS","precondition":false,"level":0,"children":[{"number":9,"description":"Search for Coldplay","duration":4576,"startTime":"2025-11-15T17:46:04.517393300-05:00[America/Bogota]","screenshots":[{"screenshot":"7e0c4f6efc72ba46c9684473058f0ca662ad16fae066aa52620594d7b90e6b6d.png","timeStamp":1763246769093,"screenshotName":"7e0c4f6efc72ba46c9684473058f0ca662ad16fae066aa52620594d7b90e6b6d.png"}],"result":"SUCCESS","precondition":false,"level":1}]},{"number":10,"description":"When the search results are related to \"Coldplay\"","duration":2135,"startTime":"2025-11-15T17:46:09.096626500-05:00[America/Bogota]","screenshots":[{"screenshot":"29a4c23640500ea73384a6189fbaecea1333e379ff68d5c57b54920c1a50357d.png","timeStamp":1763246771232,"screenshotName":"29a4c23640500ea73384a6189fbaecea1333e379ff68d5c57b54920c1a50357d.png"}],"result":"SUCCESS","precondition":false,"level":0,"children":[{"number":11,"description":"Ensure the results","duration":2128,"startTime":"2025-11-15T17:46:09.100144800-05:00[America/Bogota]","screenshots":[{"screenshot":"29a4c23640500ea73384a6189fbaecea1333e379ff68d5c57b54920c1a50357d.png","timeStamp":1763246771228,"screenshotName":"29a4c23640500ea73384a6189fbaecea1333e379ff68d5c57b54920c1a50357d.png"}],"result":"SUCCESS","precondition":false,"level":1}]},{"number":12,"description":"And start playing the artist","duration":2316,"startTime":"2025-11-15T17:46:11.233018600-05:00[America/Bogota]","screenshots":[{"screenshot":"066e48da2ab4b29592bf1f625ead49370383d5116ea993fd243b9581d66d74d6.png","timeStamp":1763246773547,"screenshotName":"066e48da2ab4b29592bf1f625ead49370383d5116ea993fd243b9581d66d74d6.png"}],"result":"SUCCESS","precondition":false,"level":0,"children":[{"number":13,"description":"Click on Coldplay","duration":517,"startTime":"2025-11-15T17:46:11.261303-05:00[America/Bogota]","screenshots":[{"screenshot":"41f28786cfc98e112df146f38dfba400e66417a1227b077ac6be7ee510a16136.png","timeStamp":1763246771778,"screenshotName":"41f28786cfc98e112df146f38dfba400e66417a1227b077ac6be7ee510a16136.png"}],"result":"SUCCESS","precondition":false,"level":1},{"number":14,"description":"Click playList","duration":1765,"startTime":"2025-11-15T17:46:11.779808400-05:00[America/Bogota]","screenshots":[{"screenshot":"41f28786cfc98e112df146f38dfba400e66417a1227b077ac6be7ee510a16136.png","timeStamp":1763246771783,"screenshotName":"41f28786cfc98e112df146f38dfba400e66417a1227b077ac6be7ee510a16136.png"},{"screenshot":"066e48da2ab4b29592bf1f625ead49370383d5116ea993fd243b9581d66d74d6.png","timeStamp":1763246773545,"screenshotName":"066e48da2ab4b29592bf1f625ead49370383d5116ea993fd243b9581d66d74d6.png"}],"result":"SUCCESS","precondition":false,"level":1}]},{"number":15,"description":"Then Verify that song is playing","duration":436,"startTime":"2025-11-15T17:46:13.549085500-05:00[America/Bogota]","screenshots":[{"screenshot":"0a7faa068e05a1238f0335a36eb62038aad4f7a8e1e7fdc521728693f3df33d0.png","timeStamp":1763246773985,"screenshotName":"0a7faa068e05a1238f0335a36eb62038aad4f7a8e1e7fdc521728693f3df33d0.png"}],"result":"SUCCESS","precondition":false,"level":0,"children":[{"number":16,"description":"Verify start playing","duration":429,"startTime":"2025-11-15T17:46:13.552093-05:00[America/Bogota]","screenshots":[{"screenshot":"0a7faa068e05a1238f0335a36eb62038aad4f7a8e1e7fdc521728693f3df33d0.png","timeStamp":1763246773981,"screenshotName":"0a7faa068e05a1238f0335a36eb62038aad4f7a8e1e7fdc521728693f3df33d0.png"}],"result":"SUCCESS","precondition":false,"level":1}]}],"userStory":{"id":"playSong","storyName":"play a song","displayName":"play a song","path":"playSong","pathElements":[{"name":"playSong","description":""}],"type":"feature"},"title":"Play a song from a playlist","description":"","backgroundTitle":"","backgroundDescription":"","tags":[{"name":"Playsong","type":"tag","displayName":"Playsong","rawStringFromValueTag":"Playsong"},{"name":"Chrome","type":"context","displayName":"Chrome"},{"name":"Windows","type":"context","displayName":"Windows"},{"name":"Chrome, Windows","type":"context","displayName":"Chrome, Windows"}],"startTime":"2025-11-15T17:45:52.997498-05:00[America/Bogota]","endTime":"2025-11-15T17:46:13.987256500-05:00[America/Bogota]","duration":6482,"projectKey":"","sessionId":"0424ee1519685f3ee6a8e4dac653b601","driver":"chrome","isManualTestingUpToDate":false,"context":"chrome,windows","manual":false,"testSource":"Cucumber","order":0,"result":"SUCCESS"}
+{
+  "name": "Play a song from a playlist",
+  "id": "play-a-song;play-a-song-from-a-playlist",
+  "scenarioId": "playSong:Play a song from a playlist",
+  "methodName": "Play a song from a playlist",
+  "testSteps": [
+    {
+      "number": 1,
+      "description": "Given I\u0027m logged in to Spotify",
+      "duration": 10921,
+      "startTime": "2025-11-15T18:01:42.607631-05:00[America/Bogota]",
+      "screenshots": [
+        {
+          "screenshot": "4e4e97033cccf0f8c2b1a83fe31033958d9c17115bec27f996c58bcd42935bf7.png",
+          "timeStamp": 1763247713529,
+          "screenshotName": "4e4e97033cccf0f8c2b1a83fe31033958d9c17115bec27f996c58bcd42935bf7.png"
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 2,
+          "description": "Login User succesful",
+          "duration": 10370,
+          "startTime": "2025-11-15T18:01:43.157011800-05:00[America/Bogota]",
+          "screenshots": [
+            {
+              "screenshot": "4e4e97033cccf0f8c2b1a83fe31033958d9c17115bec27f996c58bcd42935bf7.png",
+              "timeStamp": 1763247713527,
+              "screenshotName": "4e4e97033cccf0f8c2b1a83fe31033958d9c17115bec27f996c58bcd42935bf7.png"
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1,
+          "children": [
+            {
+              "number": 3,
+              "description": "open Spotify Page",
+              "duration": 5942,
+              "startTime": "2025-11-15T18:01:43.167589800-05:00[America/Bogota]",
+              "screenshots": [
+                {
+                  "screenshot": "4118e18866f9e4bc76836aaa4fe8248970dcec00ae82832cbd9e595cacb0459e.png",
+                  "timeStamp": 1763247709109,
+                  "screenshotName": "4118e18866f9e4bc76836aaa4fe8248970dcec00ae82832cbd9e595cacb0459e.png"
+                }
+              ],
+              "result": "SUCCESS",
+              "precondition": false,
+              "level": 2
+            },
+            {
+              "number": 4,
+              "description": "Go to login page",
+              "duration": 531,
+              "startTime": "2025-11-15T18:01:49.112272-05:00[America/Bogota]",
+              "screenshots": [
+                {
+                  "screenshot": "4118e18866f9e4bc76836aaa4fe8248970dcec00ae82832cbd9e595cacb0459e.png",
+                  "timeStamp": 1763247709117,
+                  "screenshotName": "4118e18866f9e4bc76836aaa4fe8248970dcec00ae82832cbd9e595cacb0459e.png"
+                },
+                {
+                  "screenshot": "dcbbea6a8ac5ad9f3422bd13f3f443d98d73f3b71f3a4e17d062356d718018cd.png",
+                  "timeStamp": 1763247709644,
+                  "screenshotName": "dcbbea6a8ac5ad9f3422bd13f3f443d98d73f3b71f3a4e17d062356d718018cd.png"
+                }
+              ],
+              "result": "SUCCESS",
+              "precondition": false,
+              "level": 2
+            },
+            {
+              "number": 5,
+              "description": "Login in with valid email",
+              "duration": 1683,
+              "startTime": "2025-11-15T18:01:49.645128900-05:00[America/Bogota]",
+              "screenshots": [
+                {
+                  "screenshot": "dcbbea6a8ac5ad9f3422bd13f3f443d98d73f3b71f3a4e17d062356d718018cd.png",
+                  "timeStamp": 1763247709648,
+                  "screenshotName": "dcbbea6a8ac5ad9f3422bd13f3f443d98d73f3b71f3a4e17d062356d718018cd.png"
+                },
+                {
+                  "screenshot": "6746d3c33d27a48dda6f58ea33bf31b41f0a93f7eaeb557b0439e3252a4bbc8a.png",
+                  "timeStamp": 1763247711328,
+                  "screenshotName": "6746d3c33d27a48dda6f58ea33bf31b41f0a93f7eaeb557b0439e3252a4bbc8a.png"
+                }
+              ],
+              "result": "SUCCESS",
+              "precondition": false,
+              "level": 2
+            },
+            {
+              "number": 6,
+              "description": "ContinueWithLogin",
+              "duration": 1685,
+              "startTime": "2025-11-15T18:01:51.329691200-05:00[America/Bogota]",
+              "screenshots": [
+                {
+                  "screenshot": "6746d3c33d27a48dda6f58ea33bf31b41f0a93f7eaeb557b0439e3252a4bbc8a.png",
+                  "timeStamp": 1763247711341,
+                  "screenshotName": "6746d3c33d27a48dda6f58ea33bf31b41f0a93f7eaeb557b0439e3252a4bbc8a.png"
+                },
+                {
+                  "screenshot": "1d88a48d760717fee821630bdf666b9d1b185f272be788cea045eb66f31729f2.png",
+                  "timeStamp": 1763247713014,
+                  "screenshotName": "1d88a48d760717fee821630bdf666b9d1b185f272be788cea045eb66f31729f2.png"
+                }
+              ],
+              "result": "SUCCESS",
+              "precondition": false,
+              "level": 2
+            },
+            {
+              "number": 7,
+              "description": "Enter With Password",
+              "duration": 508,
+              "startTime": "2025-11-15T18:01:53.016372800-05:00[America/Bogota]",
+              "screenshots": [
+                {
+                  "screenshot": "1d88a48d760717fee821630bdf666b9d1b185f272be788cea045eb66f31729f2.png",
+                  "timeStamp": 1763247713019,
+                  "screenshotName": "1d88a48d760717fee821630bdf666b9d1b185f272be788cea045eb66f31729f2.png"
+                },
+                {
+                  "screenshot": "4e4e97033cccf0f8c2b1a83fe31033958d9c17115bec27f996c58bcd42935bf7.png",
+                  "timeStamp": 1763247713524,
+                  "screenshotName": "4e4e97033cccf0f8c2b1a83fe31033958d9c17115bec27f996c58bcd42935bf7.png"
+                }
+              ],
+              "result": "SUCCESS",
+              "precondition": false,
+              "level": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "description": "Given I search for \"Coldplay\"",
+      "duration": 4342,
+      "startTime": "2025-11-15T18:01:53.530927500-05:00[America/Bogota]",
+      "screenshots": [
+        {
+          "screenshot": "012c384f7a3736ab1d0bc0687878e36741585edf48fc4769d63695a86861d62c.png",
+          "timeStamp": 1763247717872,
+          "screenshotName": "012c384f7a3736ab1d0bc0687878e36741585edf48fc4769d63695a86861d62c.png"
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 9,
+          "description": "Search for Coldplay",
+          "duration": 4326,
+          "startTime": "2025-11-15T18:01:53.542954100-05:00[America/Bogota]",
+          "screenshots": [
+            {
+              "screenshot": "012c384f7a3736ab1d0bc0687878e36741585edf48fc4769d63695a86861d62c.png",
+              "timeStamp": 1763247717869,
+              "screenshotName": "012c384f7a3736ab1d0bc0687878e36741585edf48fc4769d63695a86861d62c.png"
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "description": "When the search results are related to \"Coldplay\"",
+      "duration": 2336,
+      "startTime": "2025-11-15T18:01:57.873130300-05:00[America/Bogota]",
+      "screenshots": [
+        {
+          "screenshot": "43cf60e98bc63d65cf9f81be7e5984d83bc0ecee5787dfa7d0fb4793af489f71.png",
+          "timeStamp": 1763247720209,
+          "screenshotName": "43cf60e98bc63d65cf9f81be7e5984d83bc0ecee5787dfa7d0fb4793af489f71.png"
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 11,
+          "description": "Ensure the results",
+          "duration": 2332,
+          "startTime": "2025-11-15T18:01:57.875129300-05:00[America/Bogota]",
+          "screenshots": [
+            {
+              "screenshot": "43cf60e98bc63d65cf9f81be7e5984d83bc0ecee5787dfa7d0fb4793af489f71.png",
+              "timeStamp": 1763247720207,
+              "screenshotName": "43cf60e98bc63d65cf9f81be7e5984d83bc0ecee5787dfa7d0fb4793af489f71.png"
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "description": "And start playing the artist",
+      "duration": 2115,
+      "startTime": "2025-11-15T18:02:00.209781700-05:00[America/Bogota]",
+      "screenshots": [
+        {
+          "screenshot": "094b467d10f700baa94b82382cc5efd1efd0d7940cef91d272437fba5a7dab9f.png",
+          "timeStamp": 1763247722325,
+          "screenshotName": "094b467d10f700baa94b82382cc5efd1efd0d7940cef91d272437fba5a7dab9f.png"
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 13,
+          "description": "Click on Coldplay",
+          "duration": 594,
+          "startTime": "2025-11-15T18:02:00.228656600-05:00[America/Bogota]",
+          "screenshots": [
+            {
+              "screenshot": "1f5676a3f1c525f1932420c4a26f6ab207d6914aae6377da41a723528bc54782.png",
+              "timeStamp": 1763247720823,
+              "screenshotName": "1f5676a3f1c525f1932420c4a26f6ab207d6914aae6377da41a723528bc54782.png"
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        },
+        {
+          "number": 14,
+          "description": "Click playList",
+          "duration": 1498,
+          "startTime": "2025-11-15T18:02:00.824284600-05:00[America/Bogota]",
+          "screenshots": [
+            {
+              "screenshot": "1f5676a3f1c525f1932420c4a26f6ab207d6914aae6377da41a723528bc54782.png",
+              "timeStamp": 1763247720827,
+              "screenshotName": "1f5676a3f1c525f1932420c4a26f6ab207d6914aae6377da41a723528bc54782.png"
+            },
+            {
+              "screenshot": "094b467d10f700baa94b82382cc5efd1efd0d7940cef91d272437fba5a7dab9f.png",
+              "timeStamp": 1763247722323,
+              "screenshotName": "094b467d10f700baa94b82382cc5efd1efd0d7940cef91d272437fba5a7dab9f.png"
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "description": "Then Verify that song is playing",
+      "duration": 504,
+      "startTime": "2025-11-15T18:02:02.325090500-05:00[America/Bogota]",
+      "screenshots": [
+        {
+          "screenshot": "b5276ecbc59d9d44ecae52143c945a4487150c55b54c76c309d19ce26150a153.png",
+          "timeStamp": 1763247722829,
+          "screenshotName": "b5276ecbc59d9d44ecae52143c945a4487150c55b54c76c309d19ce26150a153.png"
+        }
+      ],
+      "result": "SUCCESS",
+      "precondition": false,
+      "level": 0,
+      "children": [
+        {
+          "number": 16,
+          "description": "Verify start playing",
+          "duration": 500,
+          "startTime": "2025-11-15T18:02:02.328133900-05:00[America/Bogota]",
+          "screenshots": [
+            {
+              "screenshot": "b5276ecbc59d9d44ecae52143c945a4487150c55b54c76c309d19ce26150a153.png",
+              "timeStamp": 1763247722828,
+              "screenshotName": "b5276ecbc59d9d44ecae52143c945a4487150c55b54c76c309d19ce26150a153.png"
+            }
+          ],
+          "result": "SUCCESS",
+          "precondition": false,
+          "level": 1
+        }
+      ]
+    }
+  ],
+  "userStory": {
+    "id": "playSong",
+    "storyName": "play a song",
+    "displayName": "play a song",
+    "path": "playSong",
+    "pathElements": [
+      {
+        "name": "playSong",
+        "description": ""
+      }
+    ],
+    "type": "feature"
+  },
+  "title": "Play a song from a playlist",
+  "description": "",
+  "backgroundTitle": "",
+  "backgroundDescription": "",
+  "tags": [
+    {
+      "name": "Playsong",
+      "type": "tag",
+      "displayName": "Playsong",
+      "rawStringFromValueTag": "Playsong"
+    },
+    {
+      "name": "Chrome",
+      "type": "context",
+      "displayName": "Chrome"
+    },
+    {
+      "name": "Windows",
+      "type": "context",
+      "displayName": "Windows"
+    },
+    {
+      "name": "Chrome, Windows",
+      "type": "context",
+      "displayName": "Chrome, Windows"
+    }
+  ],
+  "startTime": "2025-11-15T18:01:42.086766-05:00[America/Bogota]",
+  "endTime": "2025-11-15T18:02:02.832059300-05:00[America/Bogota]",
+  "duration": 5907,
+  "projectKey": "",
+  "sessionId": "d5f93d81b8154fdae7becd509f8ff2bd",
+  "driver": "chrome",
+  "isManualTestingUpToDate": false,
+  "context": "chrome,windows",
+  "manual": false,
+  "testSource": "Cucumber",
+  "order": 0,
+  "result": "SUCCESS"
+}

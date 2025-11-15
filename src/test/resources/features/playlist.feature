@@ -1,6 +1,6 @@
 #language:en
   #Author: Valeriard1993@gmail.com
-
+@PlayList
 Feature: play a playlist
   Background:
     Given I'm logged in to Spotify

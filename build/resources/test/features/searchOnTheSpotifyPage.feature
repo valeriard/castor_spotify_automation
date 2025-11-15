@@ -1,6 +1,6 @@
 #language:en
   #Author:valeriard1993@gmail.com
-@login
+@search
   Feature: Search something on the Spotify page
 
     Scenario: Search for Artist on the Spotify page

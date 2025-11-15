@@ -1,6 +1,6 @@
 #language:en
   #Author:valeriard1993@gmail.com
-@login2
+@login
 Feature: Login failed
   Background:
     Given  that I am on the Spotify page
