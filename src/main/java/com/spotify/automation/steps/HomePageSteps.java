@@ -20,11 +20,12 @@ public class HomePageSteps {
     public void searchForColdplay(String value){
         homepage.searchInput.waitUntilVisible();
         homepage.searchInput.clear();
-        homepage.searchInput.type(value);
+        homepage.searchInput.typeAndEnter(value);
     }
 
     @Step("Ensure the results")
     public void resultsOfSearch(String value){
+        homepage.tracksResultSection.waitUntilVisible();
         that(homepage.tracksResultSection.isVisible()).isTrue();
         that(homepage.tracksResultSection.getText()).contains(value);
     }

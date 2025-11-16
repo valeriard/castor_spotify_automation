@@ -1,8 +1,9 @@
 #language:en
   #Author:valeriard1993@gmail.com
-@search
+@RegressionSpotify
   Feature: Search something on the Spotify page
 
+    @search
     Scenario: Search for Artist on the Spotify page
     Given that I am on the Spotify page
     When I search for "Coldplay"

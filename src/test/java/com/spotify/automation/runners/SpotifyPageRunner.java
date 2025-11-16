@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "com.spotify.automation.definitions",
-        tags = "@Playsong"
+        tags = "@RegressionSpotify"
 )
 public class SpotifyPageRunner {
 }

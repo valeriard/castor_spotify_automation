@@ -1,6 +1,5 @@
 package com.spotify.automation.steps;
 
-import com.spotify.automation.pagesobject.ExplorerPlayLists;
 import com.spotify.automation.pagesobject.UserHomePage;
 import net.serenitybdd.annotations.Step;
 import org.fluentlenium.core.annotation.Page;
@@ -13,6 +12,7 @@ public class UserHomePageSteps {
 
     @Step("Ensure login succesful")
     public void iAmUserSpotifyPage(String value){
+        userHomePage.buttonUser.waitUntilVisible();
         that(userHomePage.buttonUser.isVisible()).isTrue();
         that(userHomePage.buttonUser.getText()).contains(value);
 
