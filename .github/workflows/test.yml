@@ -1,0 +1,69 @@
+name: Java CI with Gradle and Serenity
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    # Variables de entorno traídas desde GitHub Secrets
+    env:
+      INVALID_EMAIL: ${{ secrets.INVALID_EMAIL }}
+      INVALID_PASSWORD: ${{ secrets.INVALID_PASSWORD }}
+      VALID_EMAIL: ${{ secrets.VALID_EMAIL }}
+      VALID_PASSWORD: ${{ secrets.VALID_PASSWORD }}
+
+    steps:
+
+      # 1. Descargar el código
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # 2. Instalar Java 17
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      # 3. Cache de dependencias Gradle
+      - name: Cache Gradle packages
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+
+      # 4. Dar permisos al wrapper
+      - name: Grant execute permission for Gradlew
+        run: chmod +x gradlew
+
+      # 5. Limpieza de carpetas
+      - name: Clean temporary folders
+        run: |
+          rm -rf target
+          rm -rf .gradle
+
+      # 6. Compilar
+      - name: Build with Gradle
+        run: ./gradlew clean build
+
+      # 7. Ejecutar tests + Serenity
+      - name: Run Serenity tests
+        run: ./gradlew test aggregate
+
+      # 8. Subir reportes como artefacto descargable
+      - name: Upload Serenity reports
+        uses: actions/upload-artifact@v3
+        with:
+          name: serenity-reports
+          path: target/site/serenity
