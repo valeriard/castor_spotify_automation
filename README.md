@@ -125,4 +125,4 @@ jobs:
           SPOTIFY_PASSWORD: ${{ secrets.VALID_PASSWORD }}
         run: ./gradlew clean test
 # 9. Autor
-Valeria Rivera – QA Automation | Especialista en Serenity BDD, Cucumber y Selenium WebDriver
+Valeria Rivera – QA Automation 
