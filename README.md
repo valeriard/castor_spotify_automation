@@ -46,18 +46,18 @@ Debes tener Chrome instalado. El proyecto usa WebDriverManager para descargar au
 El proyecto requiere credenciales reales de Spotify:
 
 Windows (CMD)
-setx SPOTIFY_EMAIL "tu_correo"
-setx SPOTIFY_PASSWORD "tu_password"
+setx VALID_EMAIL "tu_correo"
+setx VALID_PASSWORD "tu_password"
 
 Linux / Mac
-export SPOTIFY_EMAIL="tu_correo"
-export SPOTIFY_PASSWORD="tu_password"
+export VALID_EMAIL="tu_correo"
+export VALID_PASSWORD="tu_password"
 
 
 Verificación:
 
-echo %SPOTIFY_EMAIL%   # Windows
-echo $SPOTIFY_EMAIL    # Mac/Linux
+echo %VALID_EMAIL%   # Windows
+echo $VALID_EMAIL    # Mac/Linux
 
 # 4. Estructura del proyecto (Page Object Model)
 
@@ -65,7 +65,7 @@ echo $SPOTIFY_EMAIL    # Mac/Linux
 
 # 5. Instrucciones de ejecución
 ▶ Ejecutar todas las pruebas
-./gradlew clean test -DSPOTIFY_EMAIL="$VALID_EMAIL" -DSPOTIFY_PASSWORD="$VALID_PASSWORD"
+./gradlew clean test -VALID_EMAIL="$VALID_EMAIL" -VALID_PASSWORD="$VALID_PASSWORD"
 
 # 6. Generación del reporte de Serenity
 
@@ -121,8 +121,8 @@ jobs:
           distribution: 'temurin'
       - name: Run tests
         env:
-          SPOTIFY_EMAIL: ${{ secrets.SPOTIFY_EMAIL }}
-          SPOTIFY_PASSWORD: ${{ secrets.SPOTIFY_PASSWORD }}
+          SPOTIFY_EMAIL: ${{ secrets.VALID_EMAIL }}
+          SPOTIFY_PASSWORD: ${{ secrets.VALID_PASSWORD }}
         run: ./gradlew clean test
 # 9. Autor
 Valeria Rivera – QA Automation | Especialista en Serenity BDD, Cucumber y Selenium WebDriver
